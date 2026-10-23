@@ -1,6 +1,12 @@
 # **Web Development Labs — Semester 1**
 
-Welcome to my first README! This repository updates weekly during my first semester at SETU as I learn the basics of HTML and CSS.
+Welcome to my first README! 
+
+### Learning objectives
+
+This repository updates weekly during my first semester at SETU as I learn the basics of HTML and CSS using Microsoft Visual Studio Code.
+
+Uploading to Github from week one allowed me to become familiar with an industry standard practice of using git to sync local workspaces with the hosting platform Netlify.
 
 [You can view my labs on Netlify](https://barry-webdev1-labs.netlify.app/)
 I will update weekly as I progress through my first semester.
