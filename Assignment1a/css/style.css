@@ -1,0 +1,187 @@
+.indexbox {
+    color: white;
+    width: 210px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.indexbox>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    padding: 5px;
+
+
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.page1 {
+    background-image: url(../images/barryhike.jpg);
+}
+
+body.page2 {
+    /*background-color: darkslategray;*/
+    background-image: url(../images/pasta.jpg);
+}
+
+body.page3 {
+    background-color: darkslategray;
+    /*background-image: url(../images/jess2.jpg);*/
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+#navCA1 {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding-left: 10px;
+
+
+}
+
+#navCA1 ul {
+    display: flex;
+    list-style: none;
+}
+
+
+#navCA1>ul>li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#navCA1 ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+.socialContainer {
+    display: flex;
+    gap: 30px;
+    margin: 15px;
+    padding-bottom: 10px;
+
+}
+
+.socialIcon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.socialIcon>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+figcaption {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+span {
+    font-size: 80%;
+    font-style: italic;
+    color: lightgray;
+}
+
+figure {
+    background-color: rgb(27, 41, 28);
+    width: 250px;
+    padding: 20px;
+}
+
+table {
+    width: 60%;
+    margin: 5% auto;
+    border-collapse: collapse;
+}
+
+.ourPets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+blockquote {
+    padding: 5%;
+    font-style: italic;
+    font-size: larger;
+    color: black;
+    text-align: center;
+    width: 250px;
+    position: fixed;
+    right: 50px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.pastaList {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding-left: 10px;
+
+
+}
+
+table#pastaTable th,
+table#pastaTable td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: .3em;
+    border: solid black 1px;
+}
+
+table#pastaTable th {
+    text-align: center;
+    font-size: medium;
+    background: rgb(117, 96, 79, 0.8);
+    color: wheat;
+
+    padding: 0 .5em;
+}
+
+table#pastaTable tr:nth-of-type(even) {
+    background-color: rgba(222, 200, 180, 0.9);
+}
+
+table#pastaTable tr:nth-of-type(odd) {
+    background-color: rgba(121, 79, 53, 0.9);
+}
+
+table#pastaTable tr:hover {
+    background: whitesmoke;
+}
